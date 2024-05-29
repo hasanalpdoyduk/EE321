@@ -1,0 +1,37 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Thu Mar 21 10:18:29 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00005a
+.config_2007_LAB2ASSIGNMENT.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00002c      
+                            0x002007    0x002007      
+            46 out of 2182 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               loopBottom   0x000021    program     static C:\Users\DOYDUK\Desktop\EE321_Lab2\lab2assignment.asm
+                  loopTop   0x00001c    program     static C:\Users\DOYDUK\Desktop\EE321_Lab2\lab2assignment.asm
+                  progEnd   0x00002c    program     static C:\Users\DOYDUK\Desktop\EE321_Lab2\lab2assignment.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  loopTop   0x00001c    program     static C:\Users\DOYDUK\Desktop\EE321_Lab2\lab2assignment.asm
+               loopBottom   0x000021    program     static C:\Users\DOYDUK\Desktop\EE321_Lab2\lab2assignment.asm
+                  progEnd   0x00002c    program     static C:\Users\DOYDUK\Desktop\EE321_Lab2\lab2assignment.asm
+
+

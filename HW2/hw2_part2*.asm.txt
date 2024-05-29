@@ -1,0 +1,15 @@
+0: CP 100 500                   // tmp = A[0]
+1: MULi 100 2                   // tmp= tmp*2
+2: CP 500 100                   // A[0] = tmp
+
+3: CP 100 501                   // tmp= A[1]
+4: MULi 100 2                   // tmp = tmp*2
+5: CP 501 100                   // A[1] = tmp 
+6: BZJi 10 0                    // END
+
+10: 6                            // END address
+
+100: 0                           // tmp 
+
+500: 137                         // A[0]
+501: 224                         // A[1]
